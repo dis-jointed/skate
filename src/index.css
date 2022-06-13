@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Stoicheion";
+  src: local("Stoicheion"),
+    url("./fonts/Stoicheion.ttf") format("truetype");
+}
+@font-face {
+  font-family: "steelfishbd";
+  src: local("steelfishbd"),
+    url("./fonts/steelfish\ bd.ttf") format("truetype");
+}
+@font-face {
+  font-family: "steelfisheb";
+  src: local("steelfisheb"),
+    url("./fonts/steelfish\ eb.ttf") format("truetype");
+}
+@font-face {
+  font-family: "steelfishout";
+  src: local("steelfishout"),
+    url("./fonts/steelfish\ outline.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: local("PoppinsRegular"),
+    url("./fonts/PoppinsRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Fonarto";
+  src: local("Fonarto"),
+    url("./fonts/Fonarto\ XT.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Codec";
+  src: local("Codec"),
+    url("./fonts/Codec-Cold-ExtraBold-trial.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Heading";
+  src: local("Heading"),
+    url("./fonts/Heading-Pro-Wide-Heavy-trial.ttf") format("truetype");
+}
+

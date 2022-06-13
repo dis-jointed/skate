@@ -1,0 +1,65 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  position: fixed;
+}
+.logoo {
+  cursor: pointer;
+  margin: 17px;
+}
+.menu__cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 40px;
+  padding-right: 30px;
+}
+.menu__nav {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header h3 {
+  color: white;
+  transform: translate(0px, -20px);
+  margin-left: 20px;
+}
+.iconsheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 8%;
+}
+.iconsheader img {
+  max-width: 22px;
+  max-height: 22px;
+  border: 2px solid rgba(255, 123, 0, 0.445);
+  padding: 5px;
+  border-radius: 50%;
+}
+.menu__nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "PoppinsRegular";
+  font-size: 14px;
+}
+.menu__nav a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: rgb(55, 0, 255);
+  transition: width 1s ease-in-out;
+}
+.menu__nav a:hover::after {
+  width: 100%;
+}
+.menu__nav img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
